@@ -5,7 +5,7 @@ Streamex is a [GetStream](https://getstream.io) client library for the Elixir la
 ## Documentation
 
   - [Project page](https://sixfingers.github.io/streamex)
-  - [Hex Docs](https://hexdocs.pm/streamex/0.3.0/api-reference.html)
+  - [Hex Docs](https://hexdocs.pm/streamex/0.4.1/api-reference.html)
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add Streamex to your `mix.exs` file:
 
 ```elixir
 def deps do
-  [{:streamex, "~> 0.3.0"}]
+  [{:streamex, "~> 0.4.1"}]
 end
 ```
 

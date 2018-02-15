@@ -7,8 +7,8 @@ defmodule Streamex.Mixfile do
       name: "Streamex",
       source_url: "https://github.com/sixFingers/streamex",
       homepage_url: "http://sixfingers.github.io/streamex",
-      version: "0.4.0",
-      elixir: "~> 1.7.4",
+      version: "0.4.1",
+      elixir: "~> 1.8.1",
       description: description(),
       package: package(),
       build_embedded: Mix.env == :prod,
@@ -28,11 +28,11 @@ defmodule Streamex.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.4"},
+      {:httpoison, "~> 1.5"},
       {:poison, "~> 3.1.0"},
       {:joken, "~> 1.5"},
       {:timex, "~> 3.4.2"},
-      {:ex_doc, "~> 0.19.1", only: :dev},
+      {:ex_doc, "~> 0.19.3", only: :dev},
       {:exvcr, "~> 0.10.3", only: :test},
       {:excoveralls, "~> 0.10.3", only: :test}
     ]
